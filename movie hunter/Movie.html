@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images/favicon.png" type="image/gif" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/Movie.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Movie</title>
+
+</head>
+
+<body class="deep-purple-gradient">
+    <div id="shell">
+        <div id="header">
+            <h1 id="logo"><a href="/">FunnyHunter</a></h1>
+            <div id="navigation">
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="Movie.html">MOVIE</a></li>
+                    <li><a href="Book.html">BOOK</a></li>
+                </ul>
+            </div>
+            <div id="sub-navigation">
+            </div>
+        </div>
+    </div>
+
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie</h3>
+                <p>Search for your favorite movie</p>
+                <input type="text" class="form-control" id="movie-search-box" onkeyup="findMovies()"
+                    onclick="findMovies()">
+
+                <div class="search-list" id="search-list">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="Movie.js"></script>
+</body>
+
+</html>
